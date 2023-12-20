@@ -1,8 +1,16 @@
 
 /* Your CSS Code here. */
-.holder {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+/* Your CSS Code here. */
+.items{
+	background:black;
+	color:white;
+	width:100px;
+	height:100px;
+	font-size:90px;
+	text-align:center;
+}
+.holder{
+	display:flex;
+	justify-content: space-evenly;
+	flex-wrap:wrap;
 }
